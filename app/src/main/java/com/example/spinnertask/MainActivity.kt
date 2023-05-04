@@ -24,4 +24,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun save() {
+        val personName = binding.inputTv.text.toString()
+        sharedPreferences.edit().putString("PersonName", personName).apply()
+    }
+
 }
