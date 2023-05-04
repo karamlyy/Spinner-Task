@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Spinner
-
+//comment from Shalala 1
 class MainActivity : AppCompatActivity() {
     var list = mutableListOf<String>("Baku", "Ankara", "Madrid", "Paris")
     override fun onCreate(savedInstanceState: Bundle?) {
